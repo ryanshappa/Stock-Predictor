@@ -7,7 +7,7 @@ in order to generate a share price prediction for a future date
 
 Install all libraries needed to run 
 
-$ pip install matplotlib
+$ pip install matplotlib \n
 $ pip install tensorflow
 $ pip install numpy
 $ pip install pandas
