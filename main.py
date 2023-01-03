@@ -14,8 +14,11 @@ from keras.models import Sequential
 
 # Load Data
 
+# Put any ticker symbol you'd like predicted
+# Example: APPL, TSLA, SNAP
 company = 'DOGE-USD'
 
+# Specify the start and end time for the stock/coin to be tracked 
 start = dt.datetime(2021, 1, 1)
 end = dt.datetime(2022, 12,1,)
 
@@ -88,7 +91,7 @@ plt.ylabel(f"{company} Share Price")
 plt.legend()
 plt.show()
 
-# Predict the next day
+# Predict the next day price 
 
 real_data = [model_inputs[len(model_inputs) + 1 - prediction_days:len(model_inputs+1), 0]]
 real_data = np.array(real_data)
