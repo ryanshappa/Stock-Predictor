@@ -12,6 +12,6 @@ $ pip install tensorflow \
 $ pip install numpy \
 $ pip install pandas \
 $ pip install sklearn \
-$ pip install keras \
+$ pip install keras 
 
 After installing all needed packages, simply input the stock you would like to be tracked and predicted by specifying the company, and also change the input for the start and end dates to eb tracked/predicted! Enjoy!
